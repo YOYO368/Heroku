@@ -34,7 +34,7 @@ if(isset($_POST['login_btn']))
 			$_SESSION['User_ID'] = $row[0];
 			$_SESSION['userPassword'] = $row[1];
 		}
-			header("Location: Index.php");
+			header("Location: index.php");
 		}
 		else {
 			echo "false";
