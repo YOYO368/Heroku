@@ -39,7 +39,7 @@
                     if($User_Name == $userId) 
                     {
                         $_SESSION['message'] = "'$userId' is already exist";
-                        header("Location: Index.php");
+                        header("Location: index.php");
                         exit();
                     }
 				}
