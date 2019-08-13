@@ -3,6 +3,6 @@
 	session_destroy();
 	$_SESSION["User_ID"] = "";
 	$_SESSION['message'] = "You are now Logged out";
-	header("Location: Index.php");
+	header("Location: index.php");
 	exit();
 ?>
